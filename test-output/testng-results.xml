@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T18:46:07 IST" name="Suite" finished-at="2024-06-06T18:46:28 IST" duration-ms="20793">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T18:46:07 IST" name="Test" finished-at="2024-06-06T18:46:28 IST" duration-ms="20793">
+      <class name="unittests.TC2_ErrorForInvalidEmailOnSignUp">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:07 IST" name="setup" finished-at="2024-06-06T18:46:09 IST" duration-ms="1111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateErrorForInvalidEmailSignUp(java.lang.String,java.lang.String)[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:09 IST" name="validateErrorForInvalidEmailSignUp" data-provider="TestData" finished-at="2024-06-06T18:46:15 IST" duration-ms="6242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priya@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForInvalidEmailSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:15 IST" name="tearDown" finished-at="2024-06-06T18:46:15 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:15 IST" name="setup" finished-at="2024-06-06T18:46:16 IST" duration-ms="1039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateErrorForInvalidEmailSignUp(java.lang.String,java.lang.String)[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:16 IST" name="validateErrorForInvalidEmailSignUp" data-provider="TestData" finished-at="2024-06-06T18:46:21 IST" duration-ms="5138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12377sdffih.hiuhi@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForInvalidEmailSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:21 IST" name="tearDown" finished-at="2024-06-06T18:46:21 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:21 IST" name="setup" finished-at="2024-06-06T18:46:22 IST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateErrorForInvalidEmailSignUp(java.lang.String,java.lang.String)[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:22 IST" name="validateErrorForInvalidEmailSignUp" data-provider="TestData" finished-at="2024-06-06T18:46:27 IST" duration-ms="4992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@test#$.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForInvalidEmailSignUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:unittests.TC2_ErrorForInvalidEmailOnSignUp@74f5ce22]" started-at="2024-06-06T18:46:27 IST" name="tearDown" finished-at="2024-06-06T18:46:28 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- unittests.TC2_ErrorForInvalidEmailOnSignUp -->
+      <class name="unittests.TC1_FreeCrmLoginUrl">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:unittests.TC1_FreeCrmLoginUrl@7e6ef134]" started-at="2024-06-06T18:46:07 IST" name="setup" finished-at="2024-06-06T18:46:09 IST" duration-ms="1686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFreeCrmLoginUrl()[pri:0, instance:unittests.TC1_FreeCrmLoginUrl@7e6ef134]" started-at="2024-06-06T18:46:09 IST" name="validateFreeCrmLoginUrl" finished-at="2024-06-06T18:46:19 IST" duration-ms="10486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFreeCrmLoginUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:unittests.TC1_FreeCrmLoginUrl@7e6ef134]" started-at="2024-06-06T18:46:19 IST" name="tearDown" finished-at="2024-06-06T18:46:19 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- unittests.TC1_FreeCrmLoginUrl -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

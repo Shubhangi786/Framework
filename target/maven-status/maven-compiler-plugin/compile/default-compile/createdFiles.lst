@@ -1,0 +1,12 @@
+base\BaseTest.class
+listeners\ListenerManager.class
+utils\ElementUtil.class
+utils\DataProviderForTests.class
+pageObjects\API_Cogmento_Page.class
+runners\CustomRunner.class
+pageObjects\FreeCRM_Page.class
+listeners\TestListener.class
+pageObjects\UI_Cogmento_Page.class
+pageEvents\API_Cogmento.class
+pageEvents\FreeCRM.class
+pageEvents\UI_Cogmento.class

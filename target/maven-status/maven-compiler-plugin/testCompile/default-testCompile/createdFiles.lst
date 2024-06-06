@@ -1,0 +1,3 @@
+unittests\TC1_FreeCrmLoginUrl.class
+unittests\TestSetup.class
+unittests\TC2_ErrorForInvalidEmailOnSignUp.class
